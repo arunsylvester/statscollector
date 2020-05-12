@@ -1,4 +1,4 @@
 #!/bin/bash
 
 java -Xms$JAVA_XMS -Xmx$JAVA_XMX \
-    -jar stats-collector.jar "$@"
+    -jar stats-collector.jar -P $PASSWORD --adminpassword $ADMINPASSWORD "$@"

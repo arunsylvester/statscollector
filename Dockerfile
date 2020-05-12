@@ -1,4 +1,4 @@
-FROM openjdk:10-jre
+FROM openjdk:8u252-jre
 
 WORKDIR /home
 ENV JAVA_XMS=256M \
